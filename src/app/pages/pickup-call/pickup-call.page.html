@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+
+    </ion-buttons>
+    <ion-title>Pickup call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="https://i.redd.it/endrxdsf95451.png"/>
+  <ion-card>
+    <ion-card-content>
+      <p>Adrress: Fake street, 11</p>
+      <p>Adrress: Fake street, 11</p>
+      <p>Adrress: Fake street, 11</p>
+      <p>Adrress: Fake street, 11</p>
+      <p>Adrress: Fake street, 11</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+
+  <ion-button color="success" size="full" (click)="newPickupCall()">Create pickup call</ion-button>
+
+</ion-content>
